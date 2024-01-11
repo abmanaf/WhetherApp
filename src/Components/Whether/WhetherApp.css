@@ -9,15 +9,7 @@
   );
 }
 /*
-  .search-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    text-align: center;
-    gap: 5px;
-  }
-  
+ 
   input {
     width: 200px;
     padding: 10px 10px;

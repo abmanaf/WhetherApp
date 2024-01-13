@@ -74,7 +74,7 @@ function WhetherApp() {
         })
         .catch((err) => {
           if (err.response && err.response.status === 404) {
-            alert("Invalid Location"); // Show alert for invalid location
+            alert("Invalid Location");
           }
           console.error(err);
         });

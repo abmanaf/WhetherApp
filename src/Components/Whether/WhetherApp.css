@@ -1,14 +1,18 @@
 .main-container {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(
+  background-image: url("https://cdn.dribbble.com/users/1803663/screenshots/5477792/media/c3bb6ecd198014b617274b2c3e8a0d0a.png?resize=1000x750&vertical=center");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*
+ background-image: linear-gradient(
     180deg,
     #3b2f80 10%,
     #130754 50%,
     #3b2f80 100%
   );
-}
-/*
  
   .search-image {
     width: 50px;
@@ -62,9 +66,16 @@
   font-weight: 500;
 }
 .data {
-  font-size: 15px;
+  font-size: 17px;
 }
 .error-message {
   color: red;
   font-size: 20px;
+}
+.element {
+  display: flex;
+  gap: 1em;
+}
+.wind-image img {
+  width: 50px;
 }

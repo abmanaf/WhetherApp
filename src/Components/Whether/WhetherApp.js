@@ -30,7 +30,7 @@ function WhetherApp() {
       axios
         .get(api_url)
         .then((res) => {
-          let imageDirectory = cloud; // Default image
+          let imageDirectory = cloud;
           if (res.data.weather && res.data.weather.length > 0) {
             const weatherMain = res.data.weather[0].main;
 

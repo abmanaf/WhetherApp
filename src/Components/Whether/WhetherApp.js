@@ -107,15 +107,6 @@ function WhetherApp() {
           <div className="temperature">{Math.round(inputData.celsius)}°C</div>
           <div className="location">{inputData.name}</div>
           <div className="data-container">
-            {/* 
-            <div className="element">
-              <img src={humidity} alt="" className="icons" />
-              <div className="data">
-                <div className="humidity">{inputData.humidity}%</div>
-                <div className="humidity-text">Humidity</div>
-              </div>
-            </div>
-            */}
             <div className="element">
               <div className="wind-image">
                 <img src={wind} alt="" className="icons" />
